@@ -1,23 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {example, labelXml} from './example'
+const Dymo = require('dymojs')
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Download DYMO Connect for Windows or Mac to print labels from your browser.
+          <br />
+          <a href="https://www.dymo.com/support?cfid=online-support" target="_blank" rel="noopener noreferrer">Download Software</a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
+        <button onClick={() => {
+          new Dymo().print("DYMO LabelWriter 450 Turbo", labelXml)
+        }}>Print Example</button>
+        
       </header>
     </div>
   );

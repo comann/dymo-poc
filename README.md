@@ -1,3 +1,6 @@
+# Steps to Get Running 
+- [Download Dymo Connect Software](https://www.dymo.com/support?cfid=online-support)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
