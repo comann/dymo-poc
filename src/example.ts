@@ -190,8 +190,7 @@ export let example = `<?xml version="1.0" encoding="utf-8"?>
 </DesktopLabel>`
 
 
-export const labelXml = `
-<?xml version="1.0" encoding="utf-8"?>
+export const labelXml = `<?xml version="1.0" encoding="utf-8"?>
 <DieCutLabel Version="8.0" Units="twips">
   <PaperOrientation>Landscape</PaperOrientation>
   <Id>LargeShipping</Id>

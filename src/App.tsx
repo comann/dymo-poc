@@ -17,7 +17,7 @@ function App() {
         </p>
       
         <button onClick={() => {
-          new Dymo().print("DYMO LabelWriter 450 Turbo", labelXml)
+          new Dymo().print("DYMO LabelWriter 450 Turbo", example)
         }}>Print Example</button>
         
       </header>
